@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Para iniciar este Proyecto debes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clonar el repositorio [Link del repositorio](https://github.com/agustinlopez23/ChallengeGreyDive).
 
-## Available Scripts
+## A continuacion ejecutar los siguientes comandos
 
-In the project directory, you can run:
+En el directorio del proyecto debes ejecutar:
+### `npm install`
+
+Cuando tengas todas las dependencias cargadas debes cargar tus variales de entorno en el archivo .env sino no funcionara.
+
+`Estas variables te las proporciona Firebase y son diferentes para cada proyecto`
+
+Despues de eso debes Ejecutar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Esto hace que la applicacion este deplegada en modo de desarrollo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Abrir [http://localhost:3000](http://localhost:3000) para ver el estado de la app en el navegador.
+
+Cada vez que hagas cambios la pagina se recargara y ademas en la consola puedes ver los errores que vayan surgiendo
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esto ejecuta el modo test para ejecutar las pruebas de tus componentes.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Genera la carpeta Build para subir tu app a produccion.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Nota: esta operación es unidireccional. Una vez expulsado, no puedes volver atrás.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Requerimientos:
+Realizar una app en React.js que lea el siguiente archivo JSON y genere con cada ítem una interfaz de app de encuesta (como Google Forms).
+En cuanto a diseño y estética tiene que diferir de Google Forms. Puedes utilizar cualquier librería que creas necesaria.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Las respuestas de la encuesta deben ser enviadas a una base de datos de Firebase.
+Dicha base de datos tiene que ser de su propiedad. No nos compartas acceso a la base de datos.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Por último, traé las respuestas de la base de datos ya mencionada y mostralas en la misma app pero en otra ruta. Al presionar “enviar” en el formulario tiene que aparecer un mensaje y el acceso a esa ruta en donde estarán las respuestas. El diseño y estética queda a libre elección.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`Ademas de lo solicitado se agrego una ruta por si el usuario llegase a perderse ante un eventual 404
+y puse en el listado de clientes un boton con el link a mi github para que le sea mas simple a la persona que vea el proyecto encontrar todo en un solo link`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Saludos!
